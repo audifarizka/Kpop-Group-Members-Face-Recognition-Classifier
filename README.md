@@ -8,10 +8,20 @@ First each of the picture in each class is scanned for a face to be detected and
 ## 1. Data 
 
 The data is a collection of pictures of the member's of the group privately collected as a hobby of me being a fan. They are mainly posted on their social medias, such as their official Twitter account, and from photographers, which, none of those belong to me. The pictures are manually selected with few criterias that suit the code:
-  1. The picture can only contain one member only
-  2. The member's face has to face the camera without having too many angles
-  3. The pictures are not close-up shots of the member
-  4. Lightings have to be bright enough
+
+  1. The picture can only contain one member only. Collages are not acceptable, either.
+  2. The member's face has to face the camera without having too many angles.
+  3. The pictures are not close-up shots of the member.
+  4. The pictures are well lit and must contain as minimal filter as possible.
+
+Example of unacceptable pictures:
+
+![IMG_7104](https://user-images.githubusercontent.com/58354284/144191135-54dc1c8b-b01c-47c8-b3ed-e8f2e9ba6b1c.JPG)
+
+Example of acceptable pictures:
+
+![IMG_6105](https://user-images.githubusercontent.com/58354284/144191510-3eabf4b9-2be9-44a8-bee9-d3f3f852ad02.JPG)
+
 
 Some pictures show members going through the airport in which they usually wear a face mask. These pictures wont get detected, however a picture of members wearing shades can be detected. Other pictures may show members standing in a crowd, which will work if other faces in the pictures are blured. Each member's pictures are put into their own folder that will be their label/class.
 

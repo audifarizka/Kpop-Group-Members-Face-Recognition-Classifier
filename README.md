@@ -1,5 +1,7 @@
-# TWICE-Face-Recognition-Classifier
+# Kpop-Group-Members-Face-Recognition-Classifier
+
 ## A face recognition classifier of a K-Pop group members using neural networks
+
 
 This is a face recognition project heavily based on Jason Brownlee's [tutorial](https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/) using pictures I privately collected. None of these pictures belong to me; they belong to each of their respectful owners. 
 

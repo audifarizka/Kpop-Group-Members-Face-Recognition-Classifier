@@ -22,6 +22,8 @@ Example of acceptable pictures:
 
 ![IMG_6105](https://user-images.githubusercontent.com/58354284/144191510-3eabf4b9-2be9-44a8-bee9-d3f3f852ad02.JPG)
 
+(Both pictures are from the official twitter [account](https://twitter.com/JYPETWICE))
+
 
 Some pictures show members going through the airport in which they usually wear a face mask. These pictures wont get detected, however a picture of members wearing shades can be detected. Other pictures may show members standing in a crowd, which will work if other faces in the pictures are blured. Each member's pictures are put into their own folder that will be their label/class.
 

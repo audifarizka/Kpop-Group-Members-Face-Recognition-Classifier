@@ -31,7 +31,14 @@ Some pictures show members going through the airport in which they usually wear 
 
 ## 2. Algorithm
 
-First the each picture is scanned to look for the face. Then, a bounding box is created and the face within the box is extracted and put into an array. The original code by Jason Brownlee is using PIL library to operate with the image, but I took the liberty to tweak a little and use OpenCV, instead (which is also from his other face detection [tutorial](https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/)). Since the process of loading the images take a long time and a lot of memory, each class of member was loaded one at a time and each picture folder is put into another folder (2-deep folder). After all the members are loaded, they are then combined and compressed into one single file consists of X and y arrays for easy loading in the future. After the data is split into train and validation set, the face embedding is created for each face for both set. Both data are normalized after being fit to the training data and the label data are encoded. The same treatment is done to the test set as well.
+First the each picture is scanned to look for the face. Then, a bounding box is created and the face within the box is extracted and put into an array. The original code by Jason Brownlee is using PIL library to operate with the image, but I took the liberty to tweak a little and use OpenCV, instead (which is also from his other face detection [tutorial](https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/)).
+
+Example of faces being detected by bounding box:
+
+![Examples](https://user-images.githubusercontent.com/58354284/145341108-42117304-e957-47ae-a6ae-ef3e93be6512.png)
+
+
+Since the process of loading the images take a long time and a lot of memory, each class of member was loaded one at a time and each picture folder is put into another folder (2-deep folder). After all the members are loaded, they are then combined and compressed into one single file consists of X and y arrays for easy loading in the future. After the data is split into train and validation set, the face embedding is created for each face for both set. Both data are normalized after being fit to the training data and the label data are encoded. The same treatment is done to the test set as well.
 
 ## 3. Model
 
